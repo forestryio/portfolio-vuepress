@@ -22,8 +22,10 @@ fields:
 - name: publishDate
   default: ''
   label: Date
-  hidden: false
+  hidden: true
   type: datetime
+  config:
+    required: true
 pages:
 - journal/cms-and-auto-deployment-for-vuepress.md
 - journal/post-1.md
