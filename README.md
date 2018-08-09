@@ -10,6 +10,9 @@
 # install vuepress locally
 npm i -g vuepress
 
+# cd into the vuepress directory
+cd portfolio
+
 # Start local dev server
 vuepress dev
 ```
@@ -27,7 +30,7 @@ Import your site in Netlify
 
 1. Create a new site in Netlify and import your repository.
 2. Set the build command to: `npm run site:build`
-3. Set the publish directory to `.vuepress/dist`
+3. Set the publish directory to `portfolio/.vuepress/dist`
 
 That's it, now your site gets deployed automatically on `git push`
 
