@@ -13,9 +13,6 @@ module.exports = {
   markdown: {
     anchor: {
       permalink: false
-    },
-    config: md => {
-      md.set({ breaks: true });
     }
   }
 };
