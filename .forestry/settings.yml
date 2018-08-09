@@ -18,7 +18,7 @@ sections:
   match: "**/[!index]*.md"
   templates:
   - journal
-upload_dir: uploads
+upload_dir: ".vuepress/uploads"
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
