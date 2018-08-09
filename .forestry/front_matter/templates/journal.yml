@@ -19,7 +19,7 @@ fields:
 - type: tag_list
   name: categories
   label: Categories
-- name: publishDate
+- name: date
   default: ''
   label: Date
   hidden: true
