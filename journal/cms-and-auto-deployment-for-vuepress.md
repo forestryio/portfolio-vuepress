@@ -1,13 +1,13 @@
 ---
 title: CMS and auto deployment for vuepress
-date: 2018-08-09 17:49:28 +0000
-thumbnail: "/uploads/scoot.jpg"
+date: 2018-08-09 19:49:28 +0200
+thumbnail: "/upload/fail-18.gif"
 excerpt: This works like expected, this text is only visible on the front page where
   all the journal posts are listed
 categories:
 - netlify
 - static
-publishDate: 2018-08-08 22:00:00 +0000
+publishDate: 2018-08-09 00:00:00 +0200
 
 ---
 # CMS and auto deployment for vuepress
