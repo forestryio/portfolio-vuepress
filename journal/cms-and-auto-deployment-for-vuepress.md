@@ -7,8 +7,6 @@ excerpt: This works like expected, this text is only visible on the front page w
 categories:
 - netlify
 - static
-publishDate: 2018-08-09 00:00:00 +0200
-
 ---
 # CMS and auto deployment for vuepress
 

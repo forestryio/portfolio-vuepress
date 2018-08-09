@@ -7,8 +7,6 @@ categories:
 excerpt: This morning, I read this article by one of the co-founders of Snipcart.
   He did this great rundown on how you could build a simple blog with Vuepress by
   looping over a custom directory of documents.
-publishDate: 2018-08-08 22:00:00 +0000
-
 ---
 # How to build a portfolio/blog with Vuepress
 
