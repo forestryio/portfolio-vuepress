@@ -13,11 +13,9 @@ fields:
 - type: file
   name: thumbnail
   label: Thumbnail
-- name: date
-  default: ''
-  label: Date
-  hidden: false
-  type: datetime
+- type: textarea
+  name: description
+  label: Description
   config:
     required: true
 - name: Categories
@@ -30,6 +28,13 @@ fields:
   label: Year
   hidden: false
   type: number
+  config:
+    required: true
+- name: date
+  default: ''
+  label: Date
+  hidden: true
+  type: datetime
   config:
     required: true
 pages:
