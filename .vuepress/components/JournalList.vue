@@ -1,8 +1,10 @@
 <template>
   <div class="journal-list">
     <div v-for="post in journal" :key="post.title">
-        <router-link tag="h2" :to="post.path">{{ post.frontmatter.title }}</router-link>
+        <img v-if="post.frontmatter.thumbnail" :src="post.frontmatter.thumbnail" :alt="post.title" />
+        <router-link tag="h2" :to="post.path" class="title">{{ post.frontmatter.title }}</router-link>
         <p>{{ post.frontmatter.excerpt }}</p>
+        <hr>
     </div>
   </div>
 </template>
@@ -20,4 +22,7 @@
 </script>
 
 <style scoped>
+  .title {
+    cursor: pointer;
+  }
 </style>

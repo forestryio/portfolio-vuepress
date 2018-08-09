@@ -42,6 +42,7 @@
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 5vw;
+    cursor: pointer;
   }
 
   .info {
