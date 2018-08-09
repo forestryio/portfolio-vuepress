@@ -1,5 +1,7 @@
 ---
+label: journal
 hide_body: false
+is_partial: false
 fields:
 - name: title
   default: ''
@@ -10,7 +12,7 @@ fields:
   default: ''
   label: Thumbnail
   hidden: false
-  type: fileupload
+  type: boolean
 - name: excerpt
   default: ''
   label: Excerpt
@@ -25,5 +27,4 @@ fields:
   default: []
   label: Categories
   hidden: false
-  type: tags
----
+  type: boolean

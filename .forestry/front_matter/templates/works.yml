@@ -1,5 +1,7 @@
 ---
+label: works
 hide_body: false
+is_partial: false
 fields:
 - name: title
   default: ''
@@ -10,7 +12,7 @@ fields:
   default: ''
   label: Thumbnail
   hidden: false
-  type: fileupload
+  type: boolean
 - name: publishDate
   default: ''
   label: Date
@@ -22,8 +24,7 @@ fields:
   hidden: false
   type: list
 - name: year
-  default: null
+  default: 
   label: Year
   hidden: false
   type: number
----
