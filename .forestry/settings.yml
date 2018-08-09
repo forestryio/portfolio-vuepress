@@ -15,7 +15,7 @@ sections:
   path: journal
   label: Journal
   create: all
-  match: "**/*"
+  match: "**/*/[!index]*"
   templates:
   - journal
 upload_dir: uploads
