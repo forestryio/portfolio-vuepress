@@ -27,5 +27,5 @@ fields:
   config:
     required: true
 pages:
-- journal/cms-and-auto-deployment-for-vuepress.md
 - journal/post-1.md
+- journal/cms-and-auto-deployment-for-vuepress.md
