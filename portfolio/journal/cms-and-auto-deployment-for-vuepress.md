@@ -1,12 +1,13 @@
 ---
 title: CMS and auto deployment for vuepress
 date: 2018-08-09 19:49:28 +0200
-thumbnail: "/upload/fail-18.gif"
+thumbnail: "/upload/photo-1508186130517-a6d7405bf726.jpeg"
 excerpt: This works like expected, this text is only visible on the front page where
   all the journal posts are listed
 categories:
 - netlify
 - static
+
 ---
 # CMS and auto deployment for vuepress
 
