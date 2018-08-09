@@ -1,29 +1,34 @@
 ---
+label: works
 hide_body: false
+is_partial: false
 fields:
 - name: title
   default: ''
   label: Title
   hidden: false
   type: text
-- name: thumbnail
-  default: ''
+  config:
+    required: true
+- type: file
+  name: thumbnail
   label: Thumbnail
-  hidden: false
-  type: fileupload
-- name: publishDate
+- name: date
   default: ''
   label: Date
   hidden: false
   type: datetime
+  config:
+    required: true
 - name: Categories
   default: []
   label: Categories
   hidden: false
   type: list
 - name: year
-  default: null
+  default: 
   label: Year
   hidden: false
   type: number
----
+  config:
+    required: true
