@@ -8,23 +8,19 @@ fields:
   label: Title
   hidden: false
   type: text
-- name: thumbnail
-  default: ''
+- type: file
+  name: thumbnail
   label: Thumbnail
-  hidden: false
-  type: boolean
-- name: excerpt
-  default: ''
+- type: textarea
+  name: excerpt
   label: Excerpt
-  hidden: false
-  type: textarea
+  config:
+    required: true
+- type: tag_list
+  name: categories
+  label: Categories
 - name: publishDate
   default: ''
   label: Date
   hidden: false
   type: datetime
-- name: Categories
-  default: []
-  label: Categories
-  hidden: false
-  type: boolean
