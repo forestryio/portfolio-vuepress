@@ -6,6 +6,6 @@ year: 2017
 categories:
 - Web
 - Design
-description: Project description
+description: subtitle
 
 ---
