@@ -1,8 +1,8 @@
 <template>
   <div class="journal-list">
-    <div v-for="post in journal">
+    <div v-for="post in journal" :key="post.title">
         <router-link tag="h2" :to="post.path">{{ post.frontmatter.title }}</router-link>
-        <p>{{ post.frontmatter.description }}</p>
+        <p>{{ post.frontmatter.excerpt }}</p>
     </div>
   </div>
 </template>

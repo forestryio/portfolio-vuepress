@@ -1,0 +1,21 @@
+---
+upload_path: "/uploads/"
+frontmatter_file_url_template: "/uploads/"
+body_file_url_template: "/uploads/"
+new_page_extension: md
+auto_deploy: true
+admin_path: "/admin"
+sections:
+
+- path: works
+  label: Works
+  create: all
+  templates:
+  - works
+
+- path: journal
+  label: Journal
+  create: all
+  templates:
+  - journal
+---

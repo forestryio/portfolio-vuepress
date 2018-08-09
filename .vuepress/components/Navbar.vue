@@ -13,6 +13,7 @@
       <ul>
         <router-link
           v-for="nav in navLinks"
+          :key="nav.text"
           v-if="nav.position === 'left'"
           tag="li"
           :to="nav.link"
@@ -37,6 +38,7 @@
       <ul>
         <router-link
           v-for="nav in navLinks"
+          :key="nav.text"
           v-if="nav.position === 'right'"
           tag="li"
           :to="nav.link"
