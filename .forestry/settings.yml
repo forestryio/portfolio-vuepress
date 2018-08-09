@@ -8,7 +8,7 @@ sections:
   path: works
   label: Works
   create: all
-  match: "**/*"
+  match: "**/*/[!index]*"
   templates:
   - works
 - type: directory
