@@ -36,6 +36,7 @@ That's it, now your site gets deployed automatically on `git push`
 
 ## Forestry CMS
 
-This project has been pre-configured to work with Forestry, just create an account and import your repository.
+This project has been pre-configured to work with Forestry, just import your repository ✨  
+Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 [Create Forestry account](https://forestry.io)
