@@ -3,7 +3,21 @@ new_page_extension: md
 auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
-sections: 
+sections:
+- type: directory
+  path: portfolio/works
+  label: Works
+  create: all
+  match: "**/*"
+  templates:
+  - works
+- type: directory
+  path: portfolio/journal
+  label: Journal
+  create: all
+  match: "**/[!index]*"
+  templates:
+  - journal
 upload_dir: ".vuepress/public/upload"
 public_path: "/upload"
 front_matter_path: ''
