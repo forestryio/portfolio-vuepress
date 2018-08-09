@@ -18,11 +18,9 @@ fields:
   label: Description
   config:
     required: true
-- name: Categories
-  default: []
+- type: tag_list
+  name: categories
   label: Categories
-  hidden: false
-  type: list
 - name: year
   default: 
   label: Year
