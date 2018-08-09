@@ -24,3 +24,5 @@ fields:
   label: Date
   hidden: false
   type: datetime
+pages:
+- journal/post-1.md
