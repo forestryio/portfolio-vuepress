@@ -4,6 +4,10 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: document
+  path: index.md
+  label: Hero
+  match: "**/*"
 - type: directory
   path: portfolio/works
   label: Works
