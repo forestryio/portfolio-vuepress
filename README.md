@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://vuepress-portfolio.netlify.com/upload/logo.svg" height="64">
+  <img src="portfolio/.vuepress/public/upload/logo.svg" height="64">
   <h3 align="center">Vuepress Portfolio</h3>
   <p align="center">Vuepress site with portfolio and blogging pages<br>ready to deloy, and configured for Forestry (Content Management)<p>
 </p>
@@ -8,7 +8,7 @@
 
 - [x] Add favicon
 - [x] Add Hero section to Forestry config
-- [ ] Mobile navigation
+- [x] Mobile navigation
 - [x] Unwrap images from p tag
 - [x] Style typography
 - [x] Style code blocks
