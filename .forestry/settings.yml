@@ -7,6 +7,7 @@ sections:
 - type: document
   path: index.md
   label: Hero
+  match: "**/*"
 - type: directory
   path: portfolio/works
   label: Works
