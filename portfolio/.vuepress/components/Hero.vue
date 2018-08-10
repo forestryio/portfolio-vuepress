@@ -1,11 +1,15 @@
 <template>
-  <h1 class="title">
-    <slot></slot>
-  </h1>
+  <h1 v-if="text" class="title" v-html="text" />
 </template>
 
 <script>
 export default {
+  props: {
+    text: {
+      type: String,
+      required: false
+    }
+  }
 }
 </script>
 

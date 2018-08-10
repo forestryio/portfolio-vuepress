@@ -4,5 +4,5 @@ hero_text: "<strong>We're Acme</strong>, we work for brands. But most importantl
   we work for fun."
 
 ---
-<Hero>{{ $page.frontmatter.hero_text }}</Hero>
+<Hero :text="$page.frontmatter.hero_text" />
 <WorksList />
