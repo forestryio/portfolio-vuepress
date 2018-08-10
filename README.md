@@ -4,6 +4,12 @@
   <p align="center">Vuepress site with portfolio and blogging pages<br>ready to deloy, and configured for Forestry (CMS)<p>
 </p>
 
+## Todo
+- [] Unwrap images from p tag
+- [] Style typography
+- [] Style layout for journal list
+- [] Remove tags/categories from journal
+
 ## Development
 
 ```bash
@@ -34,7 +40,7 @@ Import your site in Netlify
 
 That's it, now your site gets deployed automatically on `git push`
 
-## Forestry CMS
+## Forestry (Content Management)
 
 This project has been pre-configured to work with Forestry, just import your repository ✨  
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.

@@ -4,6 +4,7 @@ module.exports = {
   base: "/",
   themeConfig: {
     logo: "/upload/logo.svg",
+    footer: "Ⓒ Acme",
     nav: [
       { text: "Works", link: "/", position: "left", external: false },
       { text: "Instagram", link: "https://www.instagram.com/its.nwa/", position: "left", external: true },

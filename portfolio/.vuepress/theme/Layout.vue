@@ -12,7 +12,6 @@
           :year="$page.frontmatter.year.toString()"
           :categories="$page.frontmatter.categories"
         />
-        <img :src="$page.frontmatter.thumbnail" :alt="$page.frontmatter.title">
         <Content/>
       </div>
 
@@ -28,6 +27,8 @@
 
     </div>
 
+    <Footer />
+
   </div>
 </template>
 
@@ -42,6 +43,16 @@
         }
       },
     },
+    created() {
+      // unwrap all images from paragraph tags so we can have
+      // different widths inside the content.
+      document.querySelectorAll('img').forEach(image => {
+        var parent = image.parentNode
+        while (image.firstChild) parent.insertBefore(image.firstChild, image)
+        parent.removeChild(image)
+      })
+
+    }
   }
 </script>
 
@@ -77,6 +88,7 @@
 
   img {
     max-width: 100%;
+    line-height: 0;
   }
 
   .container {
@@ -84,13 +96,28 @@
   }
 
   h1 {
-    margin-bottom: 2rem;
+    font-size: 3rem;
     line-height: 1.15;
+    font-weight: 300;
+    margin: 0 0 2rem 0;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1rem 0 2rem 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
   }
 
   p {
-    margin: 1.5rem 0;
+    font-size: 1rem;
     line-height: 1.5;
+    margin: 1rem 0 2rem 0;
   }
 
 </style>

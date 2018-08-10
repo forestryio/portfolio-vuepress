@@ -12,7 +12,7 @@
 
       <div class="info">
         <h2>{{ post.frontmatter.title }}</h2>
-        <p>{{ post.frontmatter.description }}</p>
+        <p v-if="post.frontmatter.description">{{ post.frontmatter.description }}</p>
       </div>
 
     </router-link>
@@ -64,6 +64,7 @@
   .info p {
     display: inline-block;
     margin: 0;
+    margin-left: 0.5rem;
     font-size: 0.8rem;
   }
 

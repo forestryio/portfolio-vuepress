@@ -43,6 +43,7 @@
   .header {
     display: flex;
     padding: 2rem 0;
+    margin-bottom: 4rem;
   }
 
   .column {
