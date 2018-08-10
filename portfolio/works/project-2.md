@@ -5,8 +5,7 @@ thumbnail: "/upload/photo-1516906736502-5d3fedc3019a.jpeg"
 year: 2016
 description: subtitle
 categories:
-- development
-- ui/ux
+- print
 
 ---
 # Project two
