@@ -7,7 +7,7 @@
 ## Todo
 
 - [x] Add favicon
-- [ ] Add Hero section to Forestry config
+- [x] Add Hero section to Forestry config
 - [ ] Mobile navigation
 - [x] Unwrap images from p tag
 - [x] Style typography
