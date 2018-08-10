@@ -5,10 +5,13 @@
 </p>
 
 ## Todo
+
+- [ ] Add Hero section to Forestry config
 - [ ] Unwrap images from p tag
 - [ ] Style typography
 - [ ] Style layout for journal list
-- [ ] Remove tags/categories from journal
+- [ ] Remove thumbnail from Journal
+- [ ] Remove tags/categories from Journal
 
 ## Development
 
