@@ -1,13 +1,11 @@
 ---
 title: Project three
-date: 2017-02-04 01:00:00 +0100
-thumbnail: "/upload/photo-1533747350731-7769151f6db4.jpeg"
+date: 2017-02-04 00:00:00 +0000
+thumbnail: "/upload/photo-1504198322253-cfa87a0ff25f.jpeg"
 year: 2017
 categories:
-- Web
-- Design
+- print
 description: subtitle
 
 ---
-
-Project content
+![](/upload/photo-1504198322253-cfa87a0ff25f.jpeg)
