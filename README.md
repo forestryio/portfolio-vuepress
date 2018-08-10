@@ -1,14 +1,14 @@
 <p align="center">
   <img src="https://vuepress-portfolio.netlify.com/upload/logo.svg" height="64">
   <h3 align="center">Vuepress Portfolio</h3>
-  <p align="center">Vuepress site with portfolio and blogging pages<br>ready to deloy, and configured for Forestry (CMS)<p>
+  <p align="center">Vuepress site with portfolio and blogging pages<br>ready to deloy, and configured for Forestry (Content Management)<p>
 </p>
 
 ## Todo
-- [] Unwrap images from p tag
-- [] Style typography
-- [] Style layout for journal list
-- [] Remove tags/categories from journal
+- [ ] Unwrap images from p tag
+- [ ] Style typography
+- [ ] Style layout for journal list
+- [ ] Remove tags/categories from journal
 
 ## Development
 
