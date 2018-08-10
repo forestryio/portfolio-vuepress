@@ -1,5 +1,5 @@
 ---
-title: CMS and auto deployment for vuepress
+title: Content management and auto deployment for vuepress
 date: 2018-08-09 17:49:28 +0000
 excerpt: This works like expected, this text is only visible on the front page where
   all the journal posts are listed
@@ -30,11 +30,11 @@ Now, push it up to your remote git repository.
 ### Deploying with Netlify
 
 1. Create a new site in Netlify and import your repository.
-2. Set the build command to: `npm run site:build portfolio`
+2. Set the build command to: `npm run site:build`
 3. Set the publish directory to `portfolio/.vuepress/dist`
 
-### "Setting up" Forestry
+### Manage your content with Forestry
 
-Well, there's not much to set up really, this theme is pre-configured and works out of the box. Create an account at [Forestry](https://forestry.io "Forestry") and import your repository.
+Well, not much to do here really, this theme is pre-configured and works out of the box with Forestry. Create an account at [Forestry](https://forestry.io "Forestry") and import your repository.
 
 That's it, that's all. Enjoy your new site!
