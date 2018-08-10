@@ -12,6 +12,9 @@ module.exports = {
       { text: 'Journal', link: '/journal/', position: 'right', external: false },
     ]
   },
+  head: [
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+  ],
   markdown: {
     anchor: {
       permalink: false

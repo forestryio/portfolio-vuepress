@@ -43,7 +43,9 @@
   .header {
     display: flex;
     padding: 2rem 0;
-    margin-bottom: 4rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
   }
 
   .column {
@@ -52,10 +54,11 @@
 
   .label {
     margin-bottom: 0.5rem;
+    font-weight: 700;
   }
 
   .value {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .categories:after {

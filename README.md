@@ -6,12 +6,14 @@
 
 ## Todo
 
+- [ ] Add favicon
 - [ ] Add Hero section to Forestry config
-- [ ] Unwrap images from p tag
-- [ ] Style typography
-- [ ] Style layout for journal list
-- [ ] Remove thumbnail from Journal
-- [ ] Remove tags/categories from Journal
+- [x] Unwrap images from p tag
+- [x] Style typography
+- [x] Style code blocks
+- [x] Style layout for journal list
+- [x] Remove thumbnail from Journal
+- [x] Remove tags/categories from Journal
 
 ## Development
 

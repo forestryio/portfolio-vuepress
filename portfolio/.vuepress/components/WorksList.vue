@@ -12,7 +12,7 @@
 
       <div class="info">
         <h2>{{ post.frontmatter.title }}</h2>
-        <p v-if="post.frontmatter.description">{{ post.frontmatter.description }}</p>
+        <span v-if="post.frontmatter.description">{{ post.frontmatter.description }}</span>
       </div>
 
     </router-link>
@@ -56,13 +56,15 @@
 
   .info h2 {
     display: inline-block;
+    width: auto;
     font-size: 0.8rem;
     font-weight: 700;
     margin: 0;
   }
 
-  .info p {
+  .info span {
     display: inline-block;
+    width: auto;
     margin: 0;
     margin-left: 0.5rem;
     font-size: 0.8rem;

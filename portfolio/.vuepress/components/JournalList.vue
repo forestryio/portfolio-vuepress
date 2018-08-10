@@ -1,10 +1,8 @@
 <template>
   <div class="journal-list">
-    <div v-for="post in journal" :key="post.title">
-        <img v-if="post.frontmatter.thumbnail" :src="post.frontmatter.thumbnail" :alt="post.title" />
-        <router-link tag="h2" :to="post.path" class="title">{{ post.frontmatter.title }}</router-link>
-        <p>{{ post.frontmatter.excerpt }}</p>
-        <hr>
+    <div v-for="post in journal" :key="post.title" class="post">
+      <router-link tag="h2" :to="post.path" class="title">{{ post.frontmatter.title }}</router-link>
+      <p>{{ post.frontmatter.excerpt }}</p>
     </div>
   </div>
 </template>
@@ -24,5 +22,22 @@
 <style scoped>
   .title {
     cursor: pointer;
+  }
+  .post {
+    padding: 2rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  .post:last-of-type {
+    border: 0;
+  }
+  .post h2 {
+    margin: 0 0 1rem 0;
+  }
+  .post h2:hover {
+    opacity: 0.6;
+  }
+  .post p {
+    margin: 0;
+    color: #333;
   }
 </style>
