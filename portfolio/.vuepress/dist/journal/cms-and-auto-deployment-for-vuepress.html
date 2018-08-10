@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Acme | CMS and auto deployment for vuepress</title>
+    <meta name="description" content="creative agency">
+    <link rel="icon" href="/favicon-32x32.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.ffdde388.css" as="style"><link rel="preload" href="/assets/js/app.269fd7c8.js" as="script"><link rel="preload" href="/assets/js/10.fcba86a6.js" as="script"><link rel="preload" href="/assets/js/6.1cbbecc5.js" as="script"><link rel="preload" href="/assets/js/14.6c854e9a.js" as="script"><link rel="prefetch" href="/assets/js/7.85b9c8b4.js"><link rel="prefetch" href="/assets/js/1.8b6ccfe9.js"><link rel="prefetch" href="/assets/js/2.e6779a7a.js"><link rel="prefetch" href="/assets/js/3.e9cd0435.js"><link rel="prefetch" href="/assets/js/4.05e16087.js"><link rel="prefetch" href="/assets/js/5.be3f423c.js"><link rel="prefetch" href="/assets/js/8.b21a12f3.js"><link rel="prefetch" href="/assets/js/9.7a274d3b.js"><link rel="prefetch" href="/assets/js/11.cf50cb9d.js"><link rel="prefetch" href="/assets/js/12.f4ea25a4.js"><link rel="prefetch" href="/assets/js/13.9dc13acc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ffdde388.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="wrapper"><header class="header" data-v-22a0b991><nav class="navigation left" data-v-22a0b991><ul data-v-22a0b991><li data-v-22a0b991>Works</li><!----><!----><!----><!----><li data-v-22a0b991><a href="https://www.instagram.com/its.nwa/" target="_blank" data-v-22a0b991>Instagram</a></li><!----><!----></ul></nav><div class="brand" data-v-22a0b991><div title="Acme" class="logo" style="background-image:url(/upload/logo.svg);" data-v-22a0b991></div></div><nav class="navigation right" data-v-22a0b991><ul data-v-22a0b991><!----><!----><!----><li data-v-22a0b991>Journal</li><!----><!----><li data-v-22a0b991><a href="mailto:sayhi@mydomain.com" target="_blank" data-v-22a0b991>Say hi!</a></li><!----></ul></nav></header><div class="container"><!----><!----><!----><div class="single-journal"><div class="content custom"><h1 id="cms-and-auto-deployment-for-vuepress">CMS and auto deployment for vuepress</h1><p>Let's check out how we can automatically deploy our vuepress sites and manage the content from within Forestry.</p><h3 id="preparing-our-vuepress-site">Preparing our vuepress site</h3><p>We need to create a <code>package.json</code> file in the root of our project, this will include the build command and list vuepress as a dependency.</p><pre><code>{
+  &quot;name&quot;: &quot;project-name&quot;,
+  &quot;scripts&quot;: {
+    &quot;site:build&quot;: &quot;vuepress build&quot;
+  },
+  &quot;author&quot;: &quot;Nichlas W. Andersen&quot;,
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;dependencies&quot;: {
+    &quot;vuepress&quot;: &quot;^0.14.1&quot;
+  }
+}
+</code></pre><p>Now, push it up to your remote git repository.</p><h3 id="deploying-with-netlify">Deploying with Netlify</h3><ol><li>Create a new site in Netlify and import your repository.</li><li>Set the build command to: <code>npm run site:build</code></li><li>Set the publish directory to <code>.vuepress/dist</code></li></ol><p>That's it! your site is now deploying automatically!</p></div></div></div><span class="text" data-v-5f413788>Ⓒ Acme</span></div></div>
+    <script src="/assets/js/10.fcba86a6.js" defer></script><script src="/assets/js/6.1cbbecc5.js" defer></script><script src="/assets/js/14.6c854e9a.js" defer></script><script src="/assets/js/app.269fd7c8.js" defer></script>
+  </body>
+</html>

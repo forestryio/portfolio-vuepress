@@ -13,7 +13,7 @@ module.exports = {
     ]
   },
   head: [
-    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
+    ['link', { rel: "icon", href: "favicon-32x32.png" }]
   ],
   markdown: {
     anchor: {
