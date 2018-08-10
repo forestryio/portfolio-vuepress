@@ -60,24 +60,23 @@
         }
       }
     },
-    mounted() {
-      // unwrap all images from paragraph tags so we can have
-      // different widths inside the content.
+    updated() {
+        // unwrap all images from paragraph tags so we can have
+        // different widths inside the content.
 
-      document.querySelectorAll('img').forEach(image => {
-        var wrapper = image.parentNode
-        let children = wrapper.children
-        let fragment = document.createDocumentFragment()
+        document.querySelectorAll('p img').forEach(image => {
+          var wrapper = image.parentNode
+          let children = wrapper.children
+          let fragment = document.createDocumentFragment()
 
-        Array.from(children).forEach(child => {
-          fragment.appendChild(child)
+          Array.from(children).forEach(child => {
+            fragment.appendChild(child)
+          })
+
+          wrapper.parentNode.replaceChild(fragment, wrapper)
+
         })
-
-        wrapper.parentNode.replaceChild(fragment, wrapper)
-
-      })
-
-    }
+    },
   }
 </script>
 
