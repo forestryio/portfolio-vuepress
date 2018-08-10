@@ -1,0 +1,12 @@
+---
+label: Settings
+hide_body: true
+is_partial: false
+fields:
+- type: textarea
+  name: hero_text
+  label: Hero text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
