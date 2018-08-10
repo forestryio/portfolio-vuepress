@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
 
-    <Navbar logo="/upload/logo.svg" :sticky="$route.path === '/'" />
+    <Navbar :logo="$site.themeConfig.logo" :sticky="$route.path === '/'" />
 
     <div class="container">
 
@@ -38,14 +38,10 @@
         const worksRoute = '/works/'
         const path = this.$route.path
         if (path.includes('works') && path.length >= (worksRoute.length + 1)) {
-          console.log(`Current route is ${path}, and is indeed a single project.`)
           return true
         }
       },
     },
-    mounted() {
-      console.log(this.$site)
-    }
   }
 </script>
 

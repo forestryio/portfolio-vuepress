@@ -14,13 +14,16 @@
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
-          v-if="nav.position === 'left'"
+          v-if="nav.position === 'left' && !nav.external"
           tag="li"
           :to="nav.link"
           active-class="active"
           v-text="nav.text"
           exact
         />
+        <li v-for="nav in navLinks" v-if="nav.position === 'left' && nav.external">
+          <a :href="nav.link" target="_blank">{{ nav.text }}</a>
+        </li>
       </ul>
     </nav>
 
@@ -39,13 +42,16 @@
         <router-link
           v-for="nav in navLinks"
           :key="nav.text"
-          v-if="nav.position === 'right'"
+          v-if="nav.position === 'right' && !nav.external"
           tag="li"
           :to="nav.link"
           active-class="active"
           v-text="nav.text"
           exact
         />
+        <li v-for="nav in navLinks" v-if="nav.position === 'right' && nav.external">
+          <a :href="nav.link" target="_blank">{{ nav.text }}</a>
+        </li>
       </ul>
     </nav>
 
@@ -67,7 +73,7 @@
     computed: {
       navLinks() {
         return this.$site.themeConfig.nav
-      }
+      },
     }
   }
 </script>
@@ -117,5 +123,13 @@
   .active {
     border-bottom: 1px solid #000;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:active { color: inherit; }
+  a:visited { color: inherit; }
 
 </style>
