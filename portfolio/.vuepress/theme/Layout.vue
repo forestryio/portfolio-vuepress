@@ -148,13 +148,13 @@
   h2 {
     font-size: 2rem;
     font-weight: 300;
-    margin: 1rem auto 2rem auto;
+    margin: 2rem auto 2rem auto;
   }
 
   h3 {
     font-size: 1rem;
     font-weight: 700;
-    margin: 1rem auto 1rem auto;
+    margin: 2rem auto 1rem auto;
   }
 
   p {
@@ -166,6 +166,7 @@
   pre {
     background: var(--color-black);
     padding: 1rem;
+    margin: 1rem 0;
   }
 
   code {
