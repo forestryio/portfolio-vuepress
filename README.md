@@ -40,16 +40,3 @@ This project has been pre-configured to work with Forestry, just import your rep
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 [Create Forestry account](https://forestry.io)
-
-## Todo
-
-- [ ] More theme config in Forestry
-- [x] Add favicon
-- [x] Add Hero section to Forestry config
-- [x] Mobile navigation
-- [x] Unwrap images from p tag
-- [x] Style typography
-- [x] Style code blocks
-- [x] Style layout for journal list
-- [x] Remove thumbnail from Journal
-- [x] Remove tags/categories from Journal
