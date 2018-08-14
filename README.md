@@ -1,7 +1,7 @@
 <p align="center">
   <img src="portfolio/.vuepress/public/upload/logo.svg" height="64">
   <h3 align="center">VuePress Portfolio</h3>
-  <p align="center">VuePress site with portfolio and blogging pages<br>ready to deloy, and configured for Forestry (Content Management)<p>
+  <p align="center">VuePress site with portfolio and blogging pages<br>ready to deploy, and configured for Forestry (Content Management)<p>
 </p>
 
 <img src="https://file-gnmccqwnxv.now.sh/" style="-webkit-user-select: none; display: block; margin: auto; cursor: zoom-in;" width="100%" height="auto">
