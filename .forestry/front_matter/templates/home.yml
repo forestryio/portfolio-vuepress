@@ -1,0 +1,18 @@
+---
+label: Homepage
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: title
+  hidden: true
+- type: textarea
+  name: hero_text
+  label: Hero text
+  config:
+    wysiwyg: true
+    schema:
+      format: html
+pages:
+- portfolio/index.md

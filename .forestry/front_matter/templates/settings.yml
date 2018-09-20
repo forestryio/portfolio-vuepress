@@ -1,16 +1,60 @@
 ---
-label: Settings
-hide_body: true
+label: Site Config
+hide_body: false
 is_partial: false
 fields:
-- type: text
-  name: title
-  label: title
-  hidden: true
-- type: textarea
-  name: hero_text
-  label: Hero text
-  config:
-    wysiwyg: true
-    schema:
-      format: html
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- type: file
+  name: logo
+  label: Logo
+- name: footer
+  label: Footer
+  type: text
+  hidden: false
+  default: ''
+- name: favicon
+  label: Favicon
+  type: file
+  hidden: false
+  default: ''
+- name: navigation
+  label: Navigation
+  type: field_group_list
+  fields:
+  - name: text
+    label: Text
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  - type: select
+    config:
+      source:
+        type: simple
+      options:
+      - left
+      - right
+    label: Position
+    name: position
+  - name: external
+    label: External
+    type: boolean
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+pages:
+- portfolio/config.json
