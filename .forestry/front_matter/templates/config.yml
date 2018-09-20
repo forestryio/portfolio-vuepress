@@ -40,11 +40,15 @@ fields:
     type: text
     hidden: false
     default: ''
-  - name: position
+  - type: select
+    config:
+      source:
+        type: simple
+      options:
+      - left
+      - right
     label: Position
-    type: text
-    hidden: false
-    default: ''
+    name: position
   - name: external
     label: External
     type: boolean
