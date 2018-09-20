@@ -1,19 +1,15 @@
+const config = require('../config.json');
 module.exports = {
-  title: "Acme",
-  description: "creative agency",
+  title: config.title,
+  description: config.description,
   base: "/",
   themeConfig: {
-    logo: "/upload/logo.svg",
-    footer: "Ⓒ Acme",
-    nav: [
-      { text: "Works", link: "/", position: "left", external: false },
-      { text: "Instagram", link: "https://www.instagram.com/its.nwa/", position: "left", external: true },
-      { text: "Say hi!", link: "mailto:sayhi@mydomain.com", position: "right", external: true },
-      { text: 'Journal', link: '/journal/', position: 'right', external: false },
-    ]
+    logo: config.logo,
+    footer: config.footer,
+    nav: config.navigation,
   },
   head: [
-    ['link', { rel: "icon", href: "favicon-32x32.png" }]
+    ['link', { rel: "icon", href: config.favicon }]
   ],
   markdown: {
     anchor: {
