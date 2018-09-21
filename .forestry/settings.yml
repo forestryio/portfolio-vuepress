@@ -35,5 +35,5 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: npm run site:build
-  publish_command: npm run site_build
+  publish_command: npm run site:build
   output_directory: portfolio/.vuepress/dist
