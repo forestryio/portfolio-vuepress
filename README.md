@@ -41,4 +41,4 @@ That's it, now your site gets deployed automatically on `git push`
 This project has been pre-configured to work with Forestry, just import your repository ✨  
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
-[Create Forestry account](https://forestry.io)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/portfolio-vuepress&provider=github&engine=vuepress)
