@@ -37,3 +37,4 @@ build:
   preview_command: npm run site:build
   publish_command: npm run site:build
   output_directory: portfolio/.vuepress/dist
+  instant_preview_command: npm run site:develop
