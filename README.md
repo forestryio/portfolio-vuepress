@@ -12,18 +12,15 @@
 # install VuePress locally
 npm i -g vuepress
 
-# cd into the VuePress directory
-cd portfolio
-
 # Start local dev server
-vuepress dev
+vuepress dev portfolio
 ```
 
 ## Build
 
 ```bash
 # Build static files to .vuepress/dist
-vuepress build
+vuepress build portfolio
 ```
 
 ## Deploy with Netlify
@@ -38,7 +35,7 @@ That's it, now your site gets deployed automatically on `git push`
 
 ## Forestry (Content Management)
 
-This project has been pre-configured to work with Forestry, just import your repository ✨  
+This project has been pre-configured to work with Forestry, just import your repository ✨
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=forestryio/portfolio-vuepress&provider=github&engine=vuepress)
