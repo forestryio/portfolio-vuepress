@@ -9,7 +9,9 @@ categories:
 - UX
 - web design
 - web development
-description: Conwed was acquired by the Reset Group in 2018.
+description: "Conwed was acquired by the Reset Group from Owen's Corning in 2018.
+  Conwed had a lackluster reputation in the acoustics industry, and a complete rebrand
+  was required. \n\n"
 
 ---
 # Project one
