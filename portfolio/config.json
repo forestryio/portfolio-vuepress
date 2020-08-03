@@ -7,7 +7,7 @@
   "navigation": [
     {
       "text": "Works",
-      "link": "/",
+      "link": "/portfolio/works",
       "position": "left",
       "external": false
     },
