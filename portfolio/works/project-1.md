@@ -1,7 +1,7 @@
 ---
 title: 'Conwed '
 date: 2018-08-01T00:00:00.000+00:00
-thumbnail: "/upload/84081433_2782029745222216_4958193293990035456_o.jpg"
+thumbnail: "/upload/48390814_2031982376893627_654987851284348928_o.jpg"
 year: 2019
 categories:
 - branding
