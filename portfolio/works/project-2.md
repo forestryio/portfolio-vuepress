@@ -1,11 +1,13 @@
 ---
-title: Project two
-date: 2018-08-09 18:05:37 +0000
-thumbnail: "/upload/photo-1516906736502-5d3fedc3019a.jpeg"
-year: 2016
-description: subtitle
+title: Livingspace Sunrooms
+date: 2018-08-09T18:05:37.000+00:00
+thumbnail: "/upload/livingspacesunrooms.jpg"
+year: 2018
+description: Branding, Web Design, Web Development
 categories:
-- print
+- Branding
+- Web Design
+- Web Development
 
 ---
 # Project two
