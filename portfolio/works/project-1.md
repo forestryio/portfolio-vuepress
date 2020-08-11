@@ -25,3 +25,15 @@ Conwed is a corporation with a rich history, dating back to 1921, and specializi
 I led a team of talented graphic designers, and we had a real opportunity to create a brand identity from scratch. The tarnished reputation made the challenge even more interesting, as the companies providing similar services had different approaches and vision of their brand images and needed new original looks. There is always the place for creative perspective in design, and being in the architectural / interior design space, made this project that much more cool. 
 
 For this project, we accomplished a set of tasks according to the stakeholders’s marketing strategy:
+
+* Logo 
+* Website
+* Sales and marketing collateral 
+* Direct Mail
+* Packaging
+
+### Tools
+
+Adobe Photoshop, Adobe Illustrator, Adobe InDesign, WordPress, HTML, CSS, Javascript
+
+### Web Design
