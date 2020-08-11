@@ -26,11 +26,15 @@ I led a team of talented graphic designers, and we had a real opportunity to cre
 
 For this project, we accomplished a set of tasks according to the stakeholders’s marketing strategy:
 
-* Logo 
-* Website
-* Sales and marketing collateral 
-* Direct Mail
-* Packaging
+Logo 
+
+Website
+
+Sales and marketing collateral 
+
+Direct Mail
+
+Packaging
 
 ### Tools
 
