@@ -1,14 +1,16 @@
 ---
-title: Project three
-date: 2017-02-04 00:00:00 +0000
-thumbnail: "/upload/photo-1504198322253-cfa87a0ff25f.jpeg"
-year: 2017
+title: Trek Bicycles
+date: 2017-02-04T00:00:00.000+00:00
+thumbnail: "/upload/trek-bicycles.jpg"
+year: 2020
 categories:
-- print
-description: subtitle
+- Vue.JS
+- UI Design
+- UX Design
+description: Kiosk Application
 
 ---
-# Project three
+# Simplifying Sales
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
