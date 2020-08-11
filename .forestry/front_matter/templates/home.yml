@@ -8,8 +8,8 @@ fields:
   label: title
   hidden: true
 - type: textarea
-  name: hero_text
-  label: Hero text
+  name: Kell Gauthier 
+  label: Kell Gauthier
   config:
     wysiwyg: true
     schema:
