@@ -46,6 +46,4 @@ Adobe Photoshop, Adobe Illustrator, Adobe InDesign, WordPress, HTML, CSS, Javasc
 
 ### Mood Boards
 
-![](/upload/mood-board-1.jpg)
-
-![](/upload/mood-board-2.jpg)
+    <img src="/upload/mood-board-1.jpg" width="700px"> 
