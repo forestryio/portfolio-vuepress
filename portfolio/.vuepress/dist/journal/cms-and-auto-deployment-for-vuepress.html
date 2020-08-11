@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Content management and auto deployment for VuePress | Acme</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="favicon-32x32.png">
+    <meta name="description" content="Creative Agency">
+    <link rel="preload" href="/assets/css/0.styles.a5934286.css" as="style"><link rel="preload" href="/assets/js/app.1a75ef9a.js" as="script"><link rel="preload" href="/assets/js/9.5923b791.js" as="script"><link rel="preload" href="/assets/js/7.b1879164.js" as="script"><link rel="preload" href="/assets/js/12.8e212d82.js" as="script"><link rel="preload" href="/assets/js/4.c0a0039e.js" as="script"><link rel="prefetch" href="/assets/js/10.97b5a626.js"><link rel="prefetch" href="/assets/js/11.c070964a.js"><link rel="prefetch" href="/assets/js/13.2760ca34.js"><link rel="prefetch" href="/assets/js/14.3d6bbf2c.js"><link rel="prefetch" href="/assets/js/15.4581eff4.js"><link rel="prefetch" href="/assets/js/16.9f37cb54.js"><link rel="prefetch" href="/assets/js/2.559952d2.js"><link rel="prefetch" href="/assets/js/3.133ce27f.js"><link rel="prefetch" href="/assets/js/5.dd574b38.js"><link rel="prefetch" href="/assets/js/6.44dd63f3.js"><link rel="prefetch" href="/assets/js/8.ce3923bc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a5934286.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="wrapper"><header class="header" data-v-403e5b2c><nav class="navigation left desktop-nav" data-v-403e5b2c><ul data-v-403e5b2c><li data-v-403e5b2c>Works</li><!----><!----><!----> <!----><li data-v-403e5b2c><a href="https://www.instagram.com/its.nwa" target="_blank" data-v-403e5b2c>Instagram</a></li><!----><!----></ul></nav> <div class="brand" data-v-403e5b2c><a href="/" class="router-link-active" data-v-403e5b2c><div title="Acme" class="logo" style="background-image:url(/upload/logo.svg);" data-v-403e5b2c></div></a></div> <nav class="navigation right desktop-nav" data-v-403e5b2c><ul data-v-403e5b2c><!----><!----><!----><li data-v-403e5b2c>Journal</li> <!----><!----><li data-v-403e5b2c><a href="mailto:sayhi@mydomain.com" target="_blank" data-v-403e5b2c>Say hi!</a></li><!----></ul></nav> <div class="mobile-nav-toggle" data-v-403e5b2c></div> <div class="mobile-nav" data-v-403e5b2c><nav data-v-403e5b2c><ul data-v-403e5b2c><li data-v-403e5b2c>Works</li><!----><!----><li data-v-403e5b2c>Journal</li> <!----><li data-v-403e5b2c><a href="https://www.instagram.com/its.nwa" target="_blank" data-v-403e5b2c>Instagram</a></li><li data-v-403e5b2c><a href="mailto:sayhi@mydomain.com" target="_blank" data-v-403e5b2c>Say hi!</a></li><!----></ul> <div class="mobile-nav-close" data-v-403e5b2c></div></nav></div></header> <div class="container"><!----> <!----> <!----> <div class="single-journal"><div class="content__default"><h1 id="content-management-and-auto-deployment-for-vuepress">Content management and auto deployment for VuePress</h1> <p>Let's check out how we can automatically deploy our VuePress sites and manage the content from within Forestry.</p> <h3 id="preparing-our-vuepress-site">Preparing our VuePress site</h3> <p>We need to create a <code>package.json</code> file in the root of our project, this will include the <code>build</code> and <code>dev</code> command and list VuePress as a dependency.</p> <div class="language- extra-class"><pre><code>{
+  &quot;name&quot;: &quot;portfolio-vuepress&quot;,
+  &quot;scripts&quot;: {
+    &quot;site:build&quot;: &quot;vuepress build portfolio&quot;,
+    &quot;site:develop&quot;: &quot;vuepress dev portfolio&quot;
+  },
+  &quot;author&quot;: &quot;Nichlas W. Andersen&quot;,
+  &quot;license&quot;: &quot;MIT&quot;,
+  &quot;dependencies&quot;: {
+    &quot;vuepress&quot;: &quot;^1.2.0&quot;
+  }
+}
+</code></pre></div><p>Now, push it up to your remote git repository.</p> <h3 id="deploying-with-netlify">Deploying with Netlify</h3> <ol><li>Create a new site in Netlify and import your repository.</li> <li>Set the build command to: <code>npm run site:build</code></li> <li>Set the publish directory to <code>portfolio/.vuepress/dist</code></li></ol> <h3 id="manage-your-content-with-forestry">Manage your content with Forestry</h3> <p>Well, not much to do here really, this theme is pre-configured and works out of the box with Forestry. Create an account at <a href="https://forestry.io" title="Forestry" target="_blank" rel="noopener noreferrer">Forestry<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> and import your repository.</p> <p>That's it, that's all. Enjoy your new site!</p></div></div></div> <span class="text" data-v-c3fce3fe>Ⓒ Acme</span></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.1a75ef9a.js" defer></script><script src="/assets/js/9.5923b791.js" defer></script><script src="/assets/js/7.b1879164.js" defer></script><script src="/assets/js/12.8e212d82.js" defer></script><script src="/assets/js/4.c0a0039e.js" defer></script>
+  </body>
+</html>
