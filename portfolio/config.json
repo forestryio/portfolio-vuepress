@@ -3,7 +3,7 @@
   "description": "Designer and Front End Developer",
   "logo": "/upload/logo.svg",
   "footer": "Ⓒ Kell Gauthier",
-  "favicon": "favicon-32x32.png",
+  "favicon": "/upload/logo.svg",
   "navigation": [
     {
       "text": "Works",
