@@ -7,7 +7,7 @@ fields:
   label: title
   hidden: true
 - type: textarea
-  name: Kell Gauthier 
+  name: Kell Gauthier
   label: Kell Gauthier
   config:
     wysiwyg: true
