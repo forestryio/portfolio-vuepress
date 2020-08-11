@@ -1,33 +1,33 @@
 {
-    "title": "Kell Gauthier",
-    "description": "Designer and Front End Developer",
-    "logo": "/upload/logo.svg",
-    "footer": "Ⓒ Kell Gauthier",
-    "favicon": "favicon-32x32.png",
-    "navigation": [
-      {
-        "text": "Works",
-        "link": "/",
-        "position": "left",
-        "external": false
-      },
-      {
-        "text": "Instagram",
-        "link": "https://www.instagram.com/its.nwa",
-        "position": "left",
-        "external": true
-      },
-      {
-        "text": "Say hi!",
-        "link": "mailto:sayhi@mydomain.com",
-        "position": "right",
-        "external": true
-      },
-      {
-        "text": "Journal",
-        "link": "/journal/",
-        "position": "right",
-        "external": false
-      }
-    ]
-  }
+  "title": "Kell Gauthier",
+  "description": "Designer and Front End Developer",
+  "logo": "/upload/logo.svg",
+  "footer": "Ⓒ Kell Gauthier",
+  "favicon": "favicon-32x32.png",
+  "navigation": [
+    {
+      "text": "Works",
+      "link": "/",
+      "position": "left",
+      "external": false
+    },
+    {
+      "text": "Twitter",
+      "link": "https://twitter.com/kell_gauthier",
+      "position": "left",
+      "external": true
+    },
+    {
+      "text": "Say hi!",
+      "link": "mailto:sayhi@mydomain.com",
+      "position": "right",
+      "external": true
+    },
+    {
+      "text": "Journal",
+      "link": "/journal/",
+      "position": "right",
+      "external": false
+    }
+  ]
+}
