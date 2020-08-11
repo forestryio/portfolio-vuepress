@@ -12,6 +12,6 @@ categories:
 ---
 # Livingspace Sunrooms 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+LivingSpace Sunrooms is a premium sunroom company, think the Cadillac Escalade's of sunrooms - that specializes in custom sunrooms and conservatories through a dealership network focused in North America.
 
 ![](/upload/photo-1516906736502-5d3fedc3019a.jpeg)
