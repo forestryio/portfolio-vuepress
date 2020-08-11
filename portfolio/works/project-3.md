@@ -12,6 +12,8 @@ description: Kiosk Application
 ---
 # Simplifying Sales
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Like Apple, Trek had humble beginnings. The first Trek bike was manufactured by five employees in a rented red barn in Waterloo, a small town in Wisconsin.
 
-![](/upload/photo-1504198322253-cfa87a0ff25f.jpeg)
+![](/upload/trek-bikes-orchestrator.jpg)
+
+Often, Trek dealers and busy, and to streamline the sales process, Trek decided to streamline the sales experience by implementing touch-screen pre-sales qualifiers to prospective buyings so they could be fit with a bike based on height, weight, gender and general use whether leisurely commuting or adventurous trailblazing. 
