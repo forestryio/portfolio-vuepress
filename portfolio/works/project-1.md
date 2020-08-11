@@ -43,9 +43,3 @@ Adobe Photoshop, Adobe Illustrator, Adobe InDesign, WordPress, HTML, CSS, Javasc
 ### Web Design
 
 ![](/upload/conwed-website-2020.png)
-
-### Mood Boards
-
-    <img src="/upload/mood-board-1.jpg" width="700px"> 
-
-    <img src="/upload/mood-board-2.jpg" width="700px"> 
