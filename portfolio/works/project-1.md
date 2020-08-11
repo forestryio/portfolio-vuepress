@@ -37,3 +37,5 @@ For this project, we accomplished a set of tasks according to the stakeholdersâ€
 Adobe Photoshop, Adobe Illustrator, Adobe InDesign, WordPress, HTML, CSS, Javascript
 
 ### Web Design
+
+![](/upload/conwed-website-2020.png)
