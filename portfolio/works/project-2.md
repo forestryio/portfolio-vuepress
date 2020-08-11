@@ -1,7 +1,7 @@
 ---
 title: Livingspace Sunrooms
 date: 2018-08-09T18:05:37.000+00:00
-thumbnail: "/upload/livingspacesunrooms.jpg"
+thumbnail: "/upload/livingspacesunrooms-1.jpg"
 year: 2018
 description: Branding, Web Design, Web Development
 categories:
@@ -10,7 +10,7 @@ categories:
 - Web Development
 
 ---
-# Project two
+# Livingspace Sunrooms 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
