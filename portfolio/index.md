@@ -1,6 +1,6 @@
 ---
 works_index: true
-hero_text: "<strong>Hi, I'm Kell Gauthier</strong>.<br>Designer and Front End Developer<br><br>"
+hero_text: "<strong>Hi, I'm Kell Gauthier</strong>.<br>Designer &amp; Front End Developer<br><br>"
 title: Hero
 
 ---
