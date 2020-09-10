@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: "/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: document
   path: portfolio/index.md
@@ -34,12 +34,9 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
-  publish_command: npm run site:build
-  preview_command: npm run site:build
-  output_directory: portfolio/.vuepress/dist
-  preview_output_directory: portfolio/.vuepress/dist
-  instant_preview_command: npm run site:develop
   install_dependencies_command: npm install
-  preview_docker_image: node:10
+  instant_preview_command: npm run develop
   mount_path: "/srv"
+  preview_docker_image: forestryio/node:12
+  preview_output_directory: portfolio/.vuepress/dist
   working_dir: "/srv"
